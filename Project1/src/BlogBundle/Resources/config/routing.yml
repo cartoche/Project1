@@ -1,0 +1,28 @@
+blog_homepage:
+    path:     /
+    defaults: { _controller: BlogBundle:Default:index }
+    
+blog_index:
+    path:     /
+    defaults: { _controller: BlogBundle:Blog:index }
+
+
+blog_add:
+    path:     /
+    defaults: { _controller: BlogBundle:Blog:add}
+    
+    
+blog_edit:
+    path:     /
+    defaults: { _controller: BlogBundle:Blog:edit}
+    
+    
+blog_view:
+    path:     /
+    defaults: { _controller: BlogBundle:Blog:view}
+    
+blog_delete:
+    path:     /
+    defaults: { _controller: BlogBundle:Blog:delete}
+    
+    
